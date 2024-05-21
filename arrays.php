@@ -3,5 +3,5 @@
 <?php
 $color =array("Black","Green","White","Red","Black");
 
- print $color;
+ print ($color);
 ?>
