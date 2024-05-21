@@ -11,22 +11,22 @@
 
     print '<br>'; // using the html break line tag
 
-    print date('1');
+    print date('l');
 
     print '<br>'; // using the html break line tag
 
     print date('Y');
 
     print '<br>'; // using the html break line tag
-    print date('1',strtotime('+5 days'));
+    print date('l',strtotime('+5 days'));
 
     print '<br>'; // using the html break line tag
 
-    print date('1,d-M-Y',);
+    print date('l,d-M-Y',);
 
     print '<br>'; // using the html break line tag
 
-    print date ('1,js-F-Y',strtotime('+3 months'));
+    print date ('l,js-F-Y',strtotime('+3 months'));
 
     print '<br>'; // using the html break line tag
 
