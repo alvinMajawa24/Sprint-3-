@@ -19,7 +19,11 @@
 
     print '<br>'; // using the html break line tag
     print date('1',strtotime('+5 days'));
-    
+
+    print '<br>'; // using the html break line tag
+
+    print date('1,d-M-Y',);
+
 
 
     ?>
