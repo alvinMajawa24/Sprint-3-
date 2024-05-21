@@ -17,5 +17,9 @@
 
     print date('Y');
 
+    print '<br>'; // using the html break line tag
+    print date('1',strtotime('+5 days'));
+    
+
 
     ?>
