@@ -24,6 +24,15 @@
 
     print date('1,d-M-Y',);
 
+    print '<br>'; // using the html break line tag
+
+    print date ('1,js-F-Y',strtotime('+3days'));
+
+    print '<br>'; // using the html break line tag
+
+    print date('H:i:s:u');
+    
+
 
 
     ?>
