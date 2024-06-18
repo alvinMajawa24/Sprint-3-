@@ -9,7 +9,7 @@
 </head>
 <body style="background-image:url(/images/background\ image.jpg);">
    <div class="top">
-    <a href="index.html">Home</a><br>
+   <a href="index.html">Home</a>
    <a href="stages.html" target="_blank">Stages </a> 
    <a href="Tearoom.html">Tea-room</a>
    <a href="Globe.html">Globe</a>
