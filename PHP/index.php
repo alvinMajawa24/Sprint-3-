@@ -9,7 +9,7 @@
 </head>
 <body style="background-image:url(/images/background\ image.jpg);">
    <div class="top">
-   <a href="index.html">Home</a>
+   <a href="index.php">Home</a>
    <a href="stages.html" target="_blank">Stages </a> 
    <a href="Tearoom.html">Tea-room</a>
    <a href="Globe.html">Globe</a>
@@ -37,6 +37,6 @@
         <input type="email" name="email_address" placeholder="input email"><br><br>
 
         
-
+        <?php include_once("templates/footer.php"); ?>
 </body>
 </html>
