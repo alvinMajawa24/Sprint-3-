@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up Page</title>
+  <link rel="stylesheet" href="signup.css">
 </head>
 <body>
     <div class="top">
@@ -14,24 +15,33 @@
         <a href="Bus station.html">Bus-station</a>
         <a href="questions.html">Questions</a>
         <a href="summary.html">Summary</a>
-
+        <a href="more-info.html">More info</a>
+    
         <a href="sign-up.html">sign-up</a>
         <a href="sign-in.html">sign-in</a>
        </div>
-       
-    <h1>KINDLY REGISTER</h1>
-    <form action="" autocomplete="off">
-        <label for="fullname">fullname:</label><br>
-        <input type="text" name="fullname" placeholder="name"
-        id="fullname"><br><br>
-        <label for="AGE">age:</label><br>
-        <input type="number" name="age" placeholder="age"><br><br>
-        <label for="EMAIL">email:</label><br>
-        <input type="email" name="email_address" placeholder="input email"><br><br>
-        <label for="password">password:</label><br>
-        <input type="text" name="password" placeholder="password"><br><br>
-        <label for="Confirm password">password:</label><br>
-        <input type="text" name="password" placeholder="password"><br><br>
 
+  <div class="signup-container">
+    <form action="#" method="POST" class="signup-form">
+      <h2>Sign Up</h2>
+      <div class="form-group">
+        <label for="fullname">Full Name</label>
+        <input type="text" id="fullname" name="fullname" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <button type="submit">Sign Up</button>
+    </form>
+  </div>
 </body>
 </html>
