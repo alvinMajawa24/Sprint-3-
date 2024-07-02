@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home page</title>
-    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
   <style>
@@ -14,18 +14,21 @@
     }
     </style>
   <div class="top">
-    <a href="index.html">Home</a>
-    <a href="stages.html" target="_blank">Stages </a> 
-    <a href="Tearoom.html">Tea-room</a>
-    <a href="Globe.html">Globe</a>
-    <a href="Bus station.html">Bus-station</a>
-    <a href="questions.html">Questions</a>
-    <a href="summary.html">Summary</a>
-    <a href="more-info.html">More info</a>
-
-    <a href="sign-up.html">sign-up</a>
-    <a href="sign-in.html">sign-in</a>
-   </div>
+    <a href="index.php">Home</a>
+    <a href="stages.php" target="_blank">Stages </a> 
+    <a href="Tearoom.php">Tea-room</a>
+    <a href="Globe.php">Globe</a>
+    <a href="Bus station.php">Bus-station</a>
+    <a href="questions.php">Questions</a>
+    <a href="summary.php">Summary</a>
+    <a href="more-info.php">More info</a>
+      <div class="dropdown">
+       <button>Join us </button>
+         <ul class="thecontent">
+           <a href="sign-in.php">Sign In</a>
+           <a href="sign-up.php">Sign up</a>
+      </div>
+  </div>
    <hl style="text-align:center;color:blue;font-weight: bolder;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size: xx-large;">MATATU SYSTEMS IN KENYA  </hl> 
    <h2 style="text-align:center;">WELCOME TO THE KENYA MATATU SYSTEM WEBSITE</h2>
    <h3 style="color: darkgreen;"> About us </h3>
@@ -36,9 +39,7 @@
       Together, let's embark on an enriching expedition, connecting communities, cultures, and aspirations across this remarkable country."</p>
 
       <img src="images/image 1.png " alt="matatu image" width="70%"/>
-    <h4> kindly fill in your details below to be part of our community </h4>
-
-    ssss
+   
 
         
        

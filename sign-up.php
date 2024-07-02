@@ -4,21 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sign Up Page</title>
-  <link rel="stylesheet" href="signup.css">
+  <link rel="stylesheet" href="CSS/signup.css">
 </head>
 <body>
-    <div class="top">
-        <a href="index.html">Home</a>
-        <a href="stages.html" target="_blank">Stages </a> 
-        <a href="Tearoom.html">Tea-room</a>
-        <a href="Globe.html">Globe</a>
-        <a href="Bus station.html">Bus-station</a>
-        <a href="questions.html">Questions</a>
-        <a href="summary.html">Summary</a>
-        <a href="more-info.html">More info</a>
+<div class="top">
+        <a href="index.php">Home</a>
+        <a href="stages.php" target="_blank">Stages </a> 
+        <a href="Tearoom.php">Tea-room</a>
+        <a href="Globe.php">Globe</a>
+        <a href="Bus station.php">Bus-station</a>
+        <a href="questions.php">Questions</a>
+        <a href="summary.php">Summary</a>
+        <a href="more-info.php">More info</a>
     
-        <a href="sign-up.html">sign-up</a>
-        <a href="sign-in.html">sign-in</a>
+        <a href="sign-up.php">sign-up</a>
+        <a href="sign-in.php">sign-in</a>
        </div>
 
   <div class="signup-container">
